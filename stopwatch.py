@@ -21,7 +21,7 @@ class TimeDisplay(Static):
         time = self.time
         minutes, seconds = divmod(time,60)
         hours, minutes = divmod(minutes,60)
-        self.update(f"{hours:02,.0f}:{minutes:02,.0f}:{seconds:05.2f}")
+        self.update(f"{hours:02.0f}:{minutes:02.0f}:{seconds:05.2f}")
 
     def start(self):
         self.time_start = monotonic()
