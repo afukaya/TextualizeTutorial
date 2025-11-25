@@ -1,0 +1,43 @@
+Screen {
+    border: green;
+    layout: horizontal;    
+}
+
+#Main-Panel{
+    border: purple;
+    overflow-x: auto;
+}
+
+#main-panel-text{
+    border: purple;
+    dock: top;
+}
+
+.main-button{
+    border: purple;
+}
+
+#Vertical-Panel {
+    border: blue;
+}
+
+#vertical-panel-text{
+    border: blue;
+}
+
+.vertical-button{
+    border: blue;
+}
+
+#Grid-Panel{
+    border: red;
+    grid-size: 2 3
+}
+
+#grid-panel-text{
+    border: red;
+}
+
+.grid-button{
+    border: red;
+}
